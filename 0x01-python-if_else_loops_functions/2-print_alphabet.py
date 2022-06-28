@@ -1,3 +1,3 @@
 #!/usr/bin/python3
-for(i=a;i<=z;i++):
-    print(i)
+for i in range(97, 123):
+    print('{}'.format(chr(i)), end="")
