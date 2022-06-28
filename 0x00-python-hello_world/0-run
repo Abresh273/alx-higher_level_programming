@@ -1,3 +1,2 @@
-#!/bin/bash
-python -c command [arg] 
-
+#!/usr/bin/python3
+print("Best School")
