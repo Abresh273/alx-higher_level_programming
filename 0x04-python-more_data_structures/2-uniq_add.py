@@ -1,10 +1,10 @@
 #!/usr/bin/python3
 def uniq_add(my_list=[]):
-   x=[]
-   res=0
-   for i in my list:
-       if i not in x:
-           x.append(i)
-   for i in x:
-      res+=i
-   return res
+    res_list = []
+    res = 0
+    for item in my_list:
+        if item not in res_list:
+            res_list.append(item)
+    for uniqs in res_list:
+        res += uniqs
+    return res
