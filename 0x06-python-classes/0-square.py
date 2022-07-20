@@ -1,5 +1,7 @@
 #!/usr/bin/python3
-Class Square:
-     def __init__():
-   
- 
+""" this module defines a empty class square """
+
+
+class Square:
+    """ empty class for task 0 """
+    pass
